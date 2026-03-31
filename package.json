@@ -2,7 +2,7 @@
   "publisher": "aeasx",
   "name": "theme-vitesse-aurora",
   "displayName": "Vitesse Aurora Theme",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@10.15.0",
   "description": "Vitesse Aurora theme for VS Code",
   "license": "MIT",
