@@ -29,7 +29,7 @@ export default function getTheme(options: GetThemeOptions) {
     name: options.name,
     base: pick({ light: 'vs', dark: 'vs-dark' }),
     colors: {
-      'focusBorder': '#00000000',
+      'focusBorder': '#4d9375',
       foreground,
       'descriptionForeground': secondaryForeground,
       'errorForeground': v('red'),
@@ -81,7 +81,7 @@ export default function getTheme(options: GetThemeOptions) {
 
       'sideBar.foreground': activeForeground,
       'sideBar.background': background,
-      'sideBar.border': border,
+      'sideBar.border': pick({ light: border, dark: '#444' }),
       'sideBarTitle.foreground': foreground,
       'sideBarSectionHeader.foreground': foreground,
       'sideBarSectionHeader.background': background,
@@ -175,7 +175,7 @@ export default function getTheme(options: GetThemeOptions) {
       'editorOverviewRuler.border': colors.white,
 
       'panel.background': background,
-      'panel.border': border,
+      'panel.border': pick({ light: border, dark: '#444' }),
       'panelTitle.activeBorder': primary,
       'panelTitle.activeForeground': foreground,
       'panelTitle.inactiveForeground': colors.gray[5],
