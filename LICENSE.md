@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Primer
+Copyright (c) 2026 Primer<br/>
 Copyright (c) 2026 Aeasx
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
