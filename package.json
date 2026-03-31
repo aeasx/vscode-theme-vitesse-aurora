@@ -1,0 +1,80 @@
+{
+  "publisher": "aeasx",
+  "name": "theme-vitesse-aurora",
+  "displayName": "Vitesse Aurora Theme",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.15.0",
+  "description": "Vitesse Aurora theme for VS Code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeasx/vscode-theme-vitesse-aurora"
+  },
+  "bugs": {
+    "url": "https://github.com/aeasx/vscode-theme-vitesse-aurora/issues"
+  },
+  "keywords": [
+    "theme",
+    "vitesse aurora",
+    "light",
+    "dark"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "exports": {
+    "./*": "./*"
+  },
+  "icon": "icon.png",
+  "files": [
+    "LICENSE.md",
+    "extra/*",
+    "icon.png",
+    "themes/*"
+  ],
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vitesse Aurora Light",
+        "uiTheme": "vs",
+        "path": "./themes/vitesse-aurora-light.json"
+      },
+      {
+        "label": "Vitesse Aurora Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vitesse-aurora-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsx scripts/index.ts",
+    "dev": "tsx watch scripts/index.ts",
+    "vscode:prepublish": "npm run build",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp --all",
+    "package": "vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "@antfu/utils": "^9.2.0",
+    "@types/color": "^4.2.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.3.0",
+    "@vscode/vsce": "^3.6.0",
+    "@xterm/xterm": "^5.5.0",
+    "bumpp": "^10.2.3",
+    "color": "^5.0.0",
+    "eslint": "^9.33.0",
+    "fs-extra": "^11.3.1",
+    "ovsx": "^0.10.5",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vsxpub": "^0.1.0"
+  },
+  "preview": true
+}
