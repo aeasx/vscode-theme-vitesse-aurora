@@ -2,7 +2,7 @@
   "name": "Vitesse Aurora Light",
   "base": "vs",
   "colors": {
-    "focusBorder": "#4d9375",
+    "focusBorder": "#00000000",
     "foreground": "#393a34",
     "descriptionForeground": "#393a3490",
     "errorForeground": "#ab5959",
@@ -108,6 +108,7 @@
     "editorIndentGuide.background": "#00000015",
     "editorIndentGuide.activeBackground": "#00000030",
     "editorWhitespace.foreground": "#00000015",
+    "editorCursor.foreground": "#000000cc",
     "editor.findMatchBackground": "#e6cc7744",
     "editor.findMatchHighlightBackground": "#e6cc7766",
     "editor.inactiveSelectionBackground": "#22222210",

@@ -29,7 +29,7 @@ export default function getTheme(options: GetThemeOptions) {
     name: options.name,
     base: pick({ light: 'vs', dark: 'vs-dark' }),
     colors: {
-      'focusBorder': '#4d9375',
+      'focusBorder': '#00000000',
       foreground,
       'descriptionForeground': secondaryForeground,
       'errorForeground': v('red'),
@@ -154,7 +154,7 @@ export default function getTheme(options: GetThemeOptions) {
       'editorIndentGuide.background': pick({ light: '#00000015', dark: '#ffffff15' }),
       'editorIndentGuide.activeBackground': pick({ light: '#00000030', dark: '#ffffff30' }),
       'editorWhitespace.foreground': pick({ light: '#00000015', dark: '#ffffff15' }),
-      // 'editorCursor.foreground': primary,
+      'editorCursor.foreground': pick({ light: '#000000cc', dark: colors.pink[8] }),
 
       'editor.findMatchBackground': pick({ light: '#e6cc7744', dark: '#e6cc7722' }),
       'editor.findMatchHighlightBackground': pick({ light: '#e6cc7766', dark: '#e6cc7744' }),

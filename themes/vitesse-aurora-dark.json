@@ -2,7 +2,7 @@
   "name": "Vitesse Aurora Dark",
   "base": "vs-dark",
   "colors": {
-    "focusBorder": "#4d9375",
+    "focusBorder": "#00000000",
     "foreground": "#dbd7caee",
     "descriptionForeground": "#dedcd590",
     "errorForeground": "#cb7676",
@@ -108,6 +108,7 @@
     "editorIndentGuide.background": "#ffffff15",
     "editorIndentGuide.activeBackground": "#ffffff30",
     "editorWhitespace.foreground": "#ffffff15",
+    "editorCursor.foreground": "#fedbf0",
     "editor.findMatchBackground": "#e6cc7722",
     "editor.findMatchHighlightBackground": "#e6cc7744",
     "editor.inactiveSelectionBackground": "#eeeeee10",
