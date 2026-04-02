@@ -24,7 +24,7 @@ export const VitesseAuroraThemes = {
 
   background: ['#121212', '#ffffff'],
   activeBackground: ['#181818', '#f7f7f7'],
-  selectionBackground: ['#eeeeee18', '#22222218'],
+  selectionBackground: ['#88888844', '#88888844'],
   selectionBackgroundActive: ['#eeeeee18', '#22222218'],
   selectionBackgroundInActive: ['#eeeeee10', '#22222210'],
 
